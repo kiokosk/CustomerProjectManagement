@@ -1,0 +1,14 @@
+// app global css in SCSS form
+
+
+.custom-modal {
+  width: 100%;
+  max-width: 400px;
+}
+
+@media (max-width: 599px) {
+  .custom-modal {
+    width: 90%;
+  }
+}
+
